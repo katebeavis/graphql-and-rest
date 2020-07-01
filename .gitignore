@@ -1,3 +1,19 @@
+node_modules/**/*
+.expo/*
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+web-report/
+.env
+
+# macOS
+.DS_Store
+
 # Logs
 logs
 *.log
@@ -52,3 +68,12 @@ stats.json
 screenshots/
 
 *console.d.ts
+
+.vscode
+
+server/generated/*
+server/.graphqlconfig.yml
+server/datamodel.prisma
+server/prisma.yml
+
+
