@@ -8,6 +8,7 @@ Small app to demonstrate use of graphql and rest endpoints using `apollo-link-re
 $ git clone git@github.com:katebeavis/graphql-and-rest.git && cd graphql-and-rest
 $ yarn
 $ touch .env
+$ echo "GITHUB_TOKEN='YOUR_TOKEN_GOES_HERE'" >> .env
 $ yarn dev
 ```
 
