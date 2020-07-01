@@ -11,4 +11,4 @@ $ yarn && yarn dev
 
 Your app will now be running on http://localhost:8080
 
-![Image of app](https://github.com/katebeavis/graphql-and-rest/app_image.png)
+![Image of app](https://github.com/katebeavis/graphql-and-rest/blob/master/app_image.png)
