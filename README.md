@@ -1,6 +1,6 @@
 # graphql-and-rest
 
-Small app to demonstrate use of graphql and rest endpoints using `apollo-rest-link`
+Small app to demonstrate use of graphql and rest endpoints using `apollo-link-rest`
 
 ## To setup
 
@@ -17,6 +17,6 @@ Your app will now be running on http://localhost:8080
 
 ## To use
 
-Search for a user via their Github username. Info about them will be displayed via the Github graphQL api. Github status will be displayed via the [GitHub Status API](https://kctbh9vrtdwd.statuspage.io/api/v2) REST endpoint
+Search for a user via their Github username. Info about them will be displayed via the Github graphQL api. Github status will be displayed via the [GitHub Status API](https://kctbh9vrtdwd.statuspage.io/api/v2) REST endpoint.
 
 ![Image of app](https://github.com/katebeavis/graphql-and-rest/blob/master/app_image.png)
