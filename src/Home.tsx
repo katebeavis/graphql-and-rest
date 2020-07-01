@@ -77,10 +77,14 @@ const Home = () => {
           </ImageContainer>
           <InfoContainer>
             {data.user.company && (
-              <Text as='p'>You work for {data.user.company}</Text>
+              <Text as='p'>
+                {data.user.name} works for {data.user.company}
+              </Text>
             )}
             {data.user.location && (
-              <Text as='p'>You are located in {data.user.location}</Text>
+              <Text as='p'>
+                {data.user.name} is located in {data.user.location}
+              </Text>
             )}
           </InfoContainer>
         </UserContainer>
